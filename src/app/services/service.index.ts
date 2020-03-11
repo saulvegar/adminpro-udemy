@@ -3,3 +3,4 @@ export { SharedService } from "./shared/shared.service";
 export { SidebarService } from "./shared/sidebar.service";
 export { UsuarioService } from "./usuario/usuario.service";
 export { LoginGuard } from './guards/login.guard';
+export { SubirArchivoService } from './subir-archivo/subir-archivo.service';
