@@ -18,6 +18,8 @@ export class ImagenPipe implements PipeTransform {
       return img;
     }
 
+    console.log("tipo", tipo)
+
     switch(tipo) {
       case 'usuario':
         url += `/usuarios/${img}`;
