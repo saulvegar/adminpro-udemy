@@ -30,11 +30,8 @@ export class HospitalService {
   obtenerHospital(id: string) {
     let url = `${URL_SERVICIOS}/hospital/${id}`;
 
-    console.log("hola")
     return this.http.get(url).pipe(
       map((resp: any) => {
-
-        console.log(resp.hospital)
         return resp.hospital
       })
     );
